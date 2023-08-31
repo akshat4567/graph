@@ -1,0 +1,32 @@
+ .pp11{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+  .heading_style{
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    width: 270px;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .pp22{
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .pp33 button{
+    margin: 15px 15px 0px 15px;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+  }
+  .pp33 button:hover{
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .pp111{
+    width: 800px;
+  }

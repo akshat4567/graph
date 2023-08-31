@@ -1,0 +1,22 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+}
+.card_info{
+  display: flex;
+  flex-direction: column;
+}
+.card h3{
+  font-size: 11px;
+} 
+.card img{
+  height: 150px;
+  width: 150px;
+}
+.card p{
+  font-size: 12px;
+} 
+
+

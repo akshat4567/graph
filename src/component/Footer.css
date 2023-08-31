@@ -1,0 +1,101 @@
+.fff{
+    width: 100%;
+}
+.ff0{
+    display: flex;
+    flex-direction: column;
+    height:320px;
+    background-color: black;
+    color: white;
+    align-content: center;
+    
+}
+.ff1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.ff2{
+    margin-top: 50px;
+}
+.ff2 p{
+    font-size: 15px;
+    width: 250px;
+}
+.ff3{
+    height: 100px;
+    
+}
+.ff3 form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 150px;
+    
+}
+.ff3 form input,textarea{
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+.op{
+    margin-bottom: 15px;
+}
+.ff4 {
+    font-size: 28px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+.opo{
+    width: 60px;
+    height: 60px;
+    color: rgb(236, 133, 8);
+    background-color: black;
+    border: 1px solid rgb(234, 170, 8);
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.fff0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.83);
+    color: white;
+}
+@media (max-width: 865px) {
+    .ff0 {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .ff1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+
+    .ff2 p {
+        width: 250px; /* Adjust to fill the available width */
+    }
+
+    .ff3 form {
+        width: 100%; 
+        font-size: 1px;
+        /* Adjust to fill the available width */
+         /* Reset margin */
+    }
+    .ff3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 250px;
+    }
+    
+}

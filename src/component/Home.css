@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .logo-container{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    
+  }
+  .logo-container h1{
+    font-size: 100px;
+    height: 80px;
+    font-family: 'Syne', sans-serif;
+
+  }
+ 
+  .slogan {
+    font-size: 2rem;
+    font-family: 'Syne', sans-serif;
+    color: white;
+    font-weight: 800;
+    
+  }
+  .slon {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Syne', sans-serif;
+    margin-left: 180px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    
+    
+  }
+  
+  .logo {
+    width: 993px;
+    height:500px ;
+    
+    
+    
+  }
+  @media (max-width: 768px) {
+    .home-container {
+        height: auto;
+    }
+    
+    .overlay {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container {
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+
+    .logo-container h1 {
+        font-size: 50px;
+        height: auto;
+    }
+
+    .slogan,
+    .slon {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+}
+
+  
+ 
